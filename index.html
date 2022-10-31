@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Web dev bible</title>
+</head>
+
+<body>
+  <!--Nav section-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom fixed-top">
+    <div class="container">
+      <a href="#" class="navbar-brand">miycool.com</a>
+      <!--toggle button-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggle">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--collapsed content-->
+      <div class="collapse navbar-collapse" id="navbar-toggle">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#learn" class="nav-link">What You'll Learn</a>
+          </li>
+          <li class="nav-item">
+            <a href="#teachers" class="nav-link">Teachers</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--main section-->
+  <section class="bg-dark text-light p-5 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg d-flex flex-column justify-content-center">
+          <h1 class="m-0">
+            Become a <span class="text-warning">web developer</span>
+          </h1>
+          <p class="my-4 fs-4">
+            This course will teach you HTML, CSS & Javascript through building
+            and deploying five awesome projects. This course is fully
+            interactive, with over 100 coding challenges. There are no
+            prerequisites, so it is suitable for beginners.
+            <br />
+            <br />
+            Most importantly it's
+            <span class="text-warning fw-bold">FREE</span>
+          </p>
+          <div class="col-4 offset-4 button btn btn-warning fs-5">
+            Start Learning Today
+          </div>
+        </div>
+        <div class="col-lg mt-5 mt-lg-0 d-none d-md-block">
+          <img src="./prammer.svg" alt="Programmer" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Technologies-->
+
+  <section class="bg-light p-5 text-dark">
+    <div class="container">
+      <div class="row gy-5">
+        <i class="fa-brands fa-html5 col-4 text-center brands" tabindex="0" role="button" data-bs-toggle="popover"
+          data-bs-trigger="focus" data-bs-title="HTML" data-bs-content="HTML provides the basic structure of sites"></i>
+        <i class="fa-brands fa-css3-alt col-4 text-center brands" tabindex="0" role="button" data-bs-toggle="popover"
+          data-bs-trigger="focus" data-bs-title="CSS"
+          data-bs-content="CSS is used to control presentation, formatting, and layout."></i>
+        <i class="fa-brands fa-js col-4 text-center brands" tabindex="0" role="button" data-bs-toggle="popover"
+          data-bs-trigger="focus" data-bs-title="Javascript"
+          data-bs-content="JavaScript is used to control the behavior of different elements."></i>
+        <i class="fa-brands fa-bootstrap col-4 text-center brands" tabindex="0" role="button" data-bs-toggle="popover"
+          data-bs-trigger="focus" data-bs-title="Bootstrap"
+          data-bs-content="Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites."></i>
+        <i class="fa-brands fa-sass col-4 text-center brands" tabindex="0" role="button" data-bs-toggle="popover"
+          data-bs-trigger="focus" data-bs-title="SASS"
+          data-bs-content="CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS extension language in the world."></i>
+        <i class="fa-brands fa-react col-4 text-center brands" tabindex="0" role="button" data-bs-toggle="popover"
+          data-bs-trigger="focus" data-bs-title="React"
+          data-bs-content="React is a JavaScript-based UI development library. Facebook and an open-source developer community run it."></i>
+      </div>
+    </div>
+  </section>
+
+  <!--What is web development? - HTML =-->
+
+  <section class="bg-dark p-5 text-light" id="learn">
+    <div class="container">
+      <div class="row text-center mb-4">
+        <h2>HTML, CSS & Javascript: The Anatomy Of A Website</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg my-5 mt-lg-0 d-none d-md-block">
+          <img src="./construction.svg" alt="Programmer" class="img-fluid" />
+        </div>
+        <div class="col-lg d-flex flex-column justify-content-center">
+          <h1 class="m-0">
+            &#60;HTML&#62; : <span class="text-warning">The Skeleton</span>
+          </h1>
+          <p class="my-4 fs-4">
+            Hypertext Markup Language (HTML) is the language of the web, without HTML you wouldn’t have a website. HTML
+            defines the content and structure of your website. Using a body for an analogy, HTML would be your skeleton,
+            holding everything together and providing a base to hang everything off. A HTML file is made up of numerous
+            HTML elements.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <p class="fs-4"> Here's an example of a single HTML element:<br> &#60p&#62 your content &#60p&#62
+          <br>
+          <br>
+          &#60p&#62 is called an opening tag, this is the start of the HTML element and tells the browser that this is
+          the start of a piece of content for the site.
+          <br>
+          <br>
+          &#60p&#62 is called a closing tag, this tells the browser that the piece of content is finished.
+          <br>
+          <br>
+          p is the type of content you want, in this example 'p' stands for paragraph (the standard way of displaying
+          large ammounts of text).
+          <br>
+          <br>
+          <em>'your content'</em> is where you put the actual content for your paragraph.
+
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!--What is web development? - CSS -->
+
+  <section class="bg-light p-5 text-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg my-5 mt-lg-0 d-none d-md-block">
+          <img src="./art.svg" alt="Artist" class="img-fluid" />
+        </div>
+        <div class="col-lg d-flex flex-column justify-content-center">
+          <h1 class="m-0">
+            &#60;CSS&#62; : <span class="text-warning">The Skin</span>
+          </h1>
+          <p class="my-4 fs-4">
+            If HTML is the skeleton to our body, then Cascading Style Sheets (CSS) is the skin. CSS is used to change
+            the look and feel of websites. It is where you define your colour schemes, fonts, spacing, layouts and more.
+            <br>
+            <br>
+            CSS is written in a separate file to the HTML. This is to allow separation of concerns and make our lives
+            easier when it comes to testing and maintenance. This also makes our styles more reusable, if we put styles
+            directly into the HTML then we wouldn't be able to use the styles across different HTML pages.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <p class="fs-4">CSS can be added to HTML documents in 3 ways:</p>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#inline" aria-expanded="true" aria-controls="collapseOne">
+                Inline
+              </button>
+            </h2>
+            <div id="inline" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p class="fs-5">
+                  An inline CSS is used to apply a unique style to a single HTML element.
+  
+                  An inline CSS uses the <span class="text-primary">style</span> attribute of an HTML element.
+  
+                  The following example sets the text color of the &#60h1&#62 element to blue, and the text color of the
+                  &#60p&#62 element to red:<br><br>
+                  &#60h1 style="color:blue;">A blue heading &#60/h1&#62 <br>
+                  &#60p style="color:blue;">A red paragraph &#60/p&#62
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#internal" aria-expanded="false" aria-controls="collapseTwo">
+                Internal CSS
+              </button>
+            </h2>
+            <div id="internal" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p class="fs-5">
+                  An internal CSS is used to define a style for a single HTML page.
+  
+                  An internal CSS is defined in the &#60head&#62 section of an HTML page, within a &#60style&#62 element.
+                </p>
+  
+                <img
+                  src="https://cdn.icowboysradio.com/codebridgeplus/uploads/InternalCSSInternalstylingisdefinedinthe_head_sectionofanHTMLpageusinga_style_element..jpg"
+                  alt="internal css example" class="img-fluid rounded rounded-3 border border-3 border-secondary shadow">
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#external" aria-expanded="false" aria-controls="collapseThree">
+                External CSS
+              </button>
+            </h2>
+            <div id="external" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p class="fs-5">
+                  An external style sheet is used to define the style for many HTML pages.
+  
+                  To use an external style sheet, add a link to it in the &#60head&#62 section of each HTML page:<br><br>
+                  &#60head&#62<br>
+                  &#60link rel="stylesheet" href="styles.css"><br>
+                  &#60/head&#62<br><br>
+                  Let's take a look at <strong>styles.css</strong><br><br>
+                  body {<br>
+                  background-color: powderblue;<br>
+                  }<br>
+                  h1 {<br>
+                  color: blue;<br>
+                  }<br>
+                  p {<br>
+                  color: red;<br>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--What is web development? - Javascript -->
+
+  <section class="bg-dark p-5 text-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg my-5 mt-lg-0 d-none d-md-block">
+          <img src="./html-css-js.svg" alt="Programmer" class="img-fluid" />
+        </div>
+        <div class="col-lg d-flex flex-column justify-content-center">
+          <h1 class="m-0">
+            &#60;Javascript&#62; : <span class="text-warning">The Muscles</span>
+          </h1>
+          <p class="my-4 fs-4">
+            JavaScript was created in 1995 by Brendan Eich to add behaviour to websites. Up to this point the web was a
+            relatively static place, good for looking up information but not very interactive. In our body analogy,
+            JavaScript takes the place of muscles, providing motion and behaviour to our limbs. <br><br>
+            Like CSS, JavaScript tends to live in its own file to allow reusability and help improve
+            maintainability.<br>
+            A starting point when learning JavaScript (or any programming language) is to get a solid understanding of
+            core programming concepts, such as variables, functions, conditional statements and loops, as such this is
+            one of the first things you will learn in this course.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <a href="#" class="col col-4 col-md-2 col-lg-2 offset-md-8 btn btn-primary mt-3">Read more</a>
+      </div>
+    </div>
+  </section>
+
+  <!--Teachers-->
+
+  <section class="bg-white p-5 text-dark" id="teachers">
+    <div class="container">
+      <div class="row text-center">
+        <p class="fs-1">Our Teachers</p>
+        <div class="col-md d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./headshot-1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Peter Locke</h4>
+              <h5>Team Leader</h5>
+              <p class="card-text">Peter is a multi talented web developer who has been with miycool since 2013. He
+                loves open-source (especially Drupal) and holds a BSc in Software Design and an MSc in Computer Science.
+
+                When he isn't building websites or brushing up on new technologies he can (sometimes) be found on the at
+                the golf course.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md d-flex justify-content-center my-sm-4 my-md-0">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./headshot-2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Sarah Willock</h4>
+              <h5>Teacher</h5>
+              <p class="card-text">Sarah has over 5 years experience at a commercial level and is a highly skilled web
+                developer (especially front-end). Sarah has been with KD Web since 2010. She loves Typo3 and holds a
+                Master of Computer Application (MCA) degree.
+
+                Her passions are shopping, playing Volleyball and collecting DVDs.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./headshot-4.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Simon Reece</h4>
+              <h5>Teacher</h5>
+
+              <p class="card-text">Simon is an experienced developer who works on both front end and back end. He has
+                been with KD web since 2016 and has a Bsc and an MSc in IT and loves working with TYPO3 and Magento.
+
+                Outside of work, like Bobby Cliff said - he don't like cricket, he love it!
+                Simon is also a huge gamer, infact he claims to be one of the best Apex players you will ever meet. (We
+                dont believe him)
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md d-flex justify-content-center my-sm-4 my-md-0">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./headshot-3.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Casandra Fernandez</h4>
+              <h5>Teaching assistant</h5>
+              <p class="card-text">Casandra is one of our newest team members, but she has quickly settled in and become
+                a valuable asset to the company. Cassandra will help you during our classes alongside one of our senior
+                teachers </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!--Contact-->
+
+  <section class="bg-dark p-5 text-light" id="contact">
+    <div class="container">
+      <h1 class="text-center">Contact Us</h1>
+      <div class="row">
+        <div class="col-md text-center me-5">
+          <h3>Enquiry Form</h3>
+          <small id="emailHelp" class="form-text text-muted">We'll never share your details with anyone else.</small>
+          <form>
+            <div class="form-group">
+              <div class="form-group">
+                <input type="text" class="form-control" id="exampleInputName" placeholder="Name">
+              </div>
+              <input type="email" class="form-control mt-3" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Email">
+
+            </div>
+            <div class="form-group">
+              <textarea class="form-control mt-3" id="exampleFormControlTextarea1" rows="3"
+                placeholder="Please enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+          </form>
+        </div>
+        <div class="col-md text-center mt-md-0 mt-sm-5">
+          <h3 class="m-0 mb-3">Contact details</h3>
+          <div class="d-flex align-items-center justify-content-center mb-3">
+            <i class="fa-solid fa-phone me-2 icn"></i>
+            <h2 class="m-0">0845 600 5050</h2>
+          </div>
+          <div class="d-flex align-items-center justify-content-center">
+            <i class="fa-solid fa-envelope me-2 icn icn"></i>
+            <h2 class="m-0">miycool@outlook.co.uk</h2>
+          </div>
+          <div>
+            <h3 class="mt-4">
+              <i class="fa-solid fa-location-dot"></i>
+              Head Office
+            </h3>
+                <!--Google map-->
+<div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 300px">
+  <iframe src="https://maps.google.com/maps?q=london&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+    style="border:0" allowfullscreen>
+  </iframe>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!--Footer-->
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+
+        <a class="btn btn-outline-light btn-floating m-1 me-5" href="#" role="button"><i class="fa-sharp fa-solid fa-arrow-up"></i></a>
+      </section>
+    </div>
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="https://miycool.com/">miycool.com</a>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <script>
+    const popoverTriggerList = document.querySelectorAll(
+      '[data-bs-toggle="popover"]'
+    );
+    const popoverList = [...popoverTriggerList].map(
+      (popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl)
+    );
+  </script>
+  <script>
+    var tooltipTriggerList = [].slice.call(
+      document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    );
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl);
+    });
+  </script>
+</body>
+</html>
